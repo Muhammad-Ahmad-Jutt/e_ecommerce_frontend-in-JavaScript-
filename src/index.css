@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Default styles for the logo */
+.logo {
+    width: 128px; /* Default width for desktop */
+    height: 64px; /* Default height for desktop */
+}
+
+/* Media query for screens with a maximum width of 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .logo {
+        width: 32px; /* Adjust the width for mobile screens */
+        height: 32px; /* Adjust the height for mobile screens */
+    }
+}
